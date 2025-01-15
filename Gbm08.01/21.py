@@ -1,0 +1,5 @@
+sentence = input('Write a sentence: ')
+count_word = len(sentence.split())
+print(f'Sentence has {count_word} words')
+# print(sentence.split())
+print(f'Sentence has a letter \'e\' {sentence.count('e')} times')
